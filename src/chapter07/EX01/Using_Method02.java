@@ -11,11 +11,7 @@ class M {
 		this.name =name;
 		System.out.println(name + "의 넓이는 " + nb + "입니다.");
 	}
-	
-	
-	
-	
-	
+
 	
 }
 

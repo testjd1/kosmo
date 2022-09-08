@@ -23,6 +23,7 @@ public class Using_Array05 {
 				count2 = count;
 			}	
 			
+			
 		}
 		System.out.println();
 		// 1. 직접 출력
