@@ -35,10 +35,6 @@ class Converter{ //환율 계산 클래스
 	// 4.  setRate() 사용하여 rate 필드 값 할당
 	
 	
-	public double getRate() {
-		rate = 1375*rate;
-		return rate;
-	}
 
 
 	public void setRate(double rate) {

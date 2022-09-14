@@ -3,14 +3,22 @@ package chapter07.EX05;
 import java.util.Scanner;
 
 class Car{
-	
+/*
+	this 키워드 : 필드나 메소드 선언시 사용 불가
+				생성자 , 메서드 내부에서 필드나 메서드 사용 시 객체필드나 메소드 지킴
+				기본적으로 생략 
+	this() 	  : 생성자 내부에서만 사용, 반드시 첫 라인에 위치
+				자신의 객체와 다른 생성자 호출
+				생성물 오버라이딩 -> 코드 간략하게 사용
+				
+*/
 	String companyName;				// 현대 자동차
 	String color;					// 검은색
 	double maxSpeed;				// 200.0 km/h
 	
 	Car(){
-		companyName = "현대자동차" ;
-		color = "검은색";
+		companyName = "현대자동차" ;	// this 키 생략시 자동으로 컴파일러 할당
+		color = "검은색";		
 		maxSpeed = 200.0;
 	}
 	Car(String companyName){
