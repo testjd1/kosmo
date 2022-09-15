@@ -40,7 +40,7 @@ public class Using_StaticMethod03 {
 //		System.out.println(a);				// 인스턴스 필드
 		System.out.println(b);
 		
-//		abc();
+//		abc();							//인스턴스 메소드
 		bcd();
 	}
 

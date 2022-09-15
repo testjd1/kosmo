@@ -5,6 +5,7 @@ package chapter09.EX01;
  			public  : 다른 패키지, 같은 패키지
  		protected   : 다른 패키지 ( 상속 ), 같은 패키지
  			default : 같은 패키지에서만 작동
+ 			private : 같은 파일
  	
  */
 public class A {

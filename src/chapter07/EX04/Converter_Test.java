@@ -12,7 +12,7 @@ class Converter{ //환율 계산 클래스
 	
 	double toKWR(double dollor){
 		return dollor * rate;
-	}
+	} 
 	/*
 	double toKWR(double rate) {
 		this.rate = rate;
@@ -103,7 +103,7 @@ public class Converter_Test {
 		
 		// 1. printf() 이용
 		System.out.println("== 소수 2째 자리까지 잘라서 출력 ==");
-		System.out.printf("원화 100만원은 %.2f $입니다.\n",converter.toDollor(1000000));
+		System.out.printf("원화 100만원은 %.2f $입니다.%n",converter.toDollor(1000000));
 		System.out.printf("100$는 %.2f 원입니다.\n",converter.toKWR(100));
 		
 		// 2. 변수에 더블 값을 할당 후 소숫점 2자리 까지 변환해서 출력
