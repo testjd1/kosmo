@@ -25,7 +25,7 @@ public class InsertEmp {
 			 String sql = "Delete from emp where empno = 1212 ";
 			
 			// 월급 10000이상 삭제
-			//String sql = "I";
+			//String sql = "Delete from emp where sal>=10000";
 			
 			
 			// 4. SQL 전송 객체
